@@ -1,0 +1,21 @@
+#gameCanvas{
+    border: solid black 2px;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Screen{
+    width: 1202px;
+    height: 300px;
+    border: solid black 2px;
+}
+
+body{
+    scroll-behavior: unset;
+}
