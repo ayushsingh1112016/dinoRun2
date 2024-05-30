@@ -378,3 +378,10 @@ let gameValue = 1;
 addEventListener('keypress' && !gameValue, animate);
 
 animate();
+document.getElementById('jumpButton').addEventListener('click', () => {
+    handleKeyDown({ key: "ArrowUp" });
+});
+
+document.getElementById('duckButton').addEventListener('click', () => {
+    handleKeyDown({ key: "ArrowDown" });
+});
